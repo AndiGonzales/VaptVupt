@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@layer components {
+  .bg-primary {
+    background-color: #f98909;
+  }
+  .bg-secondary {
+    background-color: #f2eadd;
+  }
+  .text-primary {
+    color: #f98909;
+    font-weight: 900;
+  }
+  .text-gray100 {
+    color: #91a7c2;
+  }
+  
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+
+
+html, body {
+  overflow-y: scroll;      
+  -ms-overflow-style: none; 
+  scrollbar-width: none;    
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; 
+}
+
+
